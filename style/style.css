@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.text-center{
+    text-align: center;
+}
 .btn-primary {
     border-radius: 8px;
     background: #FF5400;
@@ -266,6 +268,29 @@ font-weight: 800;
 #destination-content-description{
     text-align: center;
 }
+
+/* ------------why us ------- sectio ----------design */
+.why-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+ border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+#card-3{
+    width: 100%;
+ margin-left: 50%;
+}
+.card-title{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+}
 /*------------------------ responsive part of this website-------------------- */
 
  @media screen and (max-width:600px) {
@@ -342,7 +367,9 @@ background-image: linear-gradient(to bottom, rgb(42, 40, 40), transparent);
 .popular-tour-img img{
     width: 100%;
 }
-
+.popular-tour-content-title{
+    font-size: 1.25rem;
+}
 /* destination part responsive*/
 .destination-content{
     width: 100%;
@@ -377,6 +404,18 @@ background-image: linear-gradient(to bottom, rgb(42, 40, 40), transparent);
 }
 .div3-img-2{
     width: 100%;   
+}
+
+/* why us section responsive */
+.why-us{
+    grid-template-columns: repeat(1,1fr);
+    padding: 20px 15px;
+}
+.card{
+    margin-bottom: 80px;
+}
+#card-3{
+ margin-left: 2px;
 }
 }
  

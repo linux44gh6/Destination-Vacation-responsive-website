@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1320px;
+    margin: auto;
+    padding: 20px 100px;
+}
+
+/* nav bar style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 45px;
+}
+
+nav li a {
+    text-decoration: none;
+    color:  #424247;
+text-align: center;
+font-size: 1.12rem;
+font-weight: 700;
+}
+#home{
+    color: #FF5400;
+}
+
+.website-name {
+    display: flex;
+    align-items: center;
+   gap: 16px;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.Vacation {
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}

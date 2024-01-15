@@ -3,7 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.btn-primary{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 700;
+padding: 16px 34px;
+border: none;
+}
+.search-icon{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+color: white;
+}
 body {
     width: 1320px;
     margin: auto;
@@ -53,4 +68,62 @@ font-weight: 700;
     color: #FF5400;
     font-size: 2.25rem;
     font-weight: 800;
+}
+/* style of banner section */
+.banner-section{
+    background-image: url('../image/Group\ 13\ \(1\)\ \(1\).png');
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+   border-radius: 10px;
+   margin-top: 50px;
+  position: relative;
+}
+.gradinent{
+    height: 100%;
+   width: 100%;
+    margin:  auto;
+    position: absolute;
+    background-image: linear-gradient(to bottom,rgb(42, 40, 40),transparent);
+    top: 0px;
+    left: 200;
+    border-radius: 10px;
+    z-index: 0;
+ }
+.banner-content{
+    position: absolute;
+   text-align: center;
+    align-items: center;
+    padding: 120px 185px;
+}
+.banner-title{
+    color: #FFF;
+font-size: 4rem;
+font-weight: 800;
+}
+.banner-description{
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+line-height:26px; 
+
+}
+.input-filed{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+display: flex;
+justify-content: space-around;
+padding: 10px;
+}
+input ,select{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+color: rgba(19, 19, 24, 0.50);
+font-size: 16px;
+font-weight: 400;
+border: none;
 }

@@ -280,7 +280,8 @@ font-weight: 800;
 .card{
  border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
+background: rgba(251, 180, 99, 0.128);
+padding: 15px;
 }
 #card-3{
     width: 100%;
@@ -292,7 +293,7 @@ font-size: 1.5rem;
 font-weight: 800;
 }
 .memory-section{
-    margin-top: 180px;
+    margin-top: 100px;
 }
 #memoris-count{
     font-size: 1.2rem;
@@ -331,6 +332,81 @@ font-weight: 800;
 .memore-img-1 img{
  
 }
+
+/* --------------------news-latter section design----------------------- */
+.news-latter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.news-latter-content{
+    background: #FFF;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 40px 40px;
+height: auto;
+
+}
+.news-latter-content input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.news-latter-img img{
+    width: 100%;
+    height: 100%;
+}
+.news-latter-img{
+    position: relative;
+}
+
+.news-latter-discount{
+    position: absolute;
+    top: 58%;
+    left: 54.8%;
+    transform:rotate(-33deg);
+    border-radius: 16px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 400;
+padding: 20px 30px;
+}
+.save{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+          /* ------------footer section style------------------ */
+          footer{
+            background: rgba(19, 19, 24, 0.05);
+            margin-top: 100px;
+            padding: 100px 20px;
+            width: 100%;
+          }
+          .footer-section{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+          }
+          #footer-title{
+            width: 60%;
+            margin: auto;
+          }
+          .icon{
+            margin-top: 33px;
+            margin-bottom: 40px;
+          }
+          .footer-icon{
+            margin-right: 16px;
+            font-size: 1.3rem;
+          
+          }
+          #reserved{
+            margin-top: 50px;
+          }
 /*------------------------ responsive part of this website-------------------- */
 
  @media screen and (max-width:600px) {
@@ -478,6 +554,30 @@ background-image: linear-gradient(to bottom, rgb(42, 40, 40), transparent);
 }
 .memori-img-2 img{
     width: 100%;
+}
+/* news-latter part responsive*/
+.news-latter{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.news-latter-content{
+    margin-bottom: 20px;
+}
+.news-latter-discount{
+    top: 40%;
+    left: 38%;
+    transform:rotate(-33deg);
+    font-size: 1.2rem;
+}
+.save{
+    font-size: 1.5rem;
+}
+/* footer part responsive */
+#footer-title{
+   width: 100%;
+}
+#footer-name{
+    margin-left: -10px;
 }
 }
  

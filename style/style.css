@@ -291,6 +291,46 @@ background: rgba(251, 181, 99, 0.05);
 font-size: 1.5rem;
 font-weight: 800;
 }
+.memory-section{
+    margin-top: 180px;
+}
+#memoris-count{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+#memmori-title{
+    margin-bottom: 30px;
+}
+.memories-image{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.memore-img-1{
+    width: 40%;
+}
+.memore-img-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+}
+.memori-img-2{
+   width: 60%;
+   height: 100%;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 10px;
+}
+.memori-img-2 img{
+ width: 100%;
+ height: 20vh;
+ object-fit: cover;
+ border-radius: 10px;
+}
+.memore-img-1 img{
+ 
+}
 /*------------------------ responsive part of this website-------------------- */
 
  @media screen and (max-width:600px) {
@@ -370,6 +410,8 @@ background-image: linear-gradient(to bottom, rgb(42, 40, 40), transparent);
 .popular-tour-content-title{
     font-size: 1.25rem;
 }
+            /*---------------- memoris section tihe imgage-------- */
+ 
 /* destination part responsive*/
 .destination-content{
     width: 100%;
@@ -416,6 +458,26 @@ background-image: linear-gradient(to bottom, rgb(42, 40, 40), transparent);
 }
 #card-3{
  margin-left: 2px;
+}
+/* memory section */
+.memory-section{
+    margin-top: 20px;
+}
+.memories-image{
+    flex-direction: column;
+}
+.memore-img-1{
+    width: 100%;
+}
+.memore-img-1 img{
+    width: 100%;
+}
+.memori-img-2{
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+}
+.memori-img-2 img{
+    width: 100%;
 }
 }
  
